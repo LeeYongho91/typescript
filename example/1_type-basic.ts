@@ -12,8 +12,8 @@ arr.push('hi');
 const items: string[] = [];
 // items.push(10);
 
-// 튜플
-const address: [string, number] = ['판교', 40];
+// 튜플 
+const address: [string, number] = ['판교', 123];
 
 // 객체
 const obj: object = {};

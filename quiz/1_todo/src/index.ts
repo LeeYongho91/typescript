@@ -22,6 +22,7 @@ function addTodo(todo) {
 
 function deleteTodo(index) {
   todoItems.splice(index, 1);
+  let name = 'd';
 }
 
 function completeTodo(index, todo) {
