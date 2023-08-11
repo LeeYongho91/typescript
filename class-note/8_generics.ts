@@ -31,11 +31,11 @@ interface LengthType {
 }
 
 function logTextLength<T extends LengthType>(text: T): T {
-  text.length;
+  console.log(text.length);
   return text;
 }
 
-logTextLength('dd');
+logTextLength('qwe');
 // logTextLength(10);
 logTextLength({length: 10});
 
