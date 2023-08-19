@@ -1,5 +1,5 @@
 function logText<T>(text:T): T {
-  console.log(test);
+  console.log(text);
   return text;
 }
 
